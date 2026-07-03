@@ -6,27 +6,13 @@
 <meta name="color-scheme" content="light dark" />
 <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
 <meta http-equiv="Pragma" content="no-cache" />
-<meta name="csrf-token" content="fb200cc07016e1d40de2ed201aa4adb6aa2441124ef88787ac1bb1489ab2c2c7" />
+<meta name="csrf-token" content="7f6ce5c6a4a25c2039b170a79f507e77b2b35c97c1c92b028afb94f7a7af1953" />
 <title>Sponsor Registration · Racial Equity Institute</title>
 <meta name="description" content="The Racial Equity Institute helps organizations understand and address structural racism through training, consulting, and the Groundwater Approach." />
-<link rel="stylesheet" href="/css/fonts.css?v=202607031128" />
-<link rel="stylesheet" href="/css/site.css?v=202607031128" />
-<link rel="stylesheet" href="/css/theme.css?v=202607031128" />
-<link rel="stylesheet" href="/css/pack.css?v=202607031128" />
-
-<link rel="canonical" href="https://rei.dbaomarhuertasllc.com/sponsor-registration">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Racial Equity Institute">
-<meta property="og:title" content="Sponsor Registration · Racial Equity Institute">
-<meta property="og:description" content="The Racial Equity Institute helps organizations understand and address structural racism through training, consulting, and the Groundwater Approach.">
-<meta property="og:url" content="https://rei.dbaomarhuertasllc.com/sponsor-registration">
-<meta property="og:image" content="https://rei.dbaomarhuertasllc.com/img/rei-logo.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#0e0e12">
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="/css/fonts.css?v=202607031824" />
+<link rel="stylesheet" href="/css/site.css?v=202607031824" />
+<link rel="stylesheet" href="/css/theme.css?v=202607031824" />
+<link rel="stylesheet" href="/css/pack.css?v=202607031824" />
 </head>
 <body>
 
@@ -153,15 +139,18 @@
           
           <select id="pdTier" aria-label="Select Sponsor Tier">
             <option value="">Select Sponsor Tier</option>
-            <option>Platinum Sponsor — $25,000</option><option>Gold Sponsor — $15,000</option><option>Silver Sponsor — $10,000</option><option>Community Sponsor — $5,000</option><option>Supporting Sponsor — $2,500</option>
+            <option value="https://buy.stripe.com/cNidRae8C7g076kacQew812">Platinum Sponsor — $25,000</option><option value="https://buy.stripe.com/eVqaEY3tYbx4cqEfxaew813">Gold Sponsor — $15,000</option><option value="https://buy.stripe.com/4gM28s5C6eJgbmA84Iew814">Silver Sponsor — $10,000</option><option value="https://buy.stripe.com/eVq14oaWq58G1M03Osew815">Community Sponsor — $5,000</option><option value="https://buy.stripe.com/aFa14od4y58G62g84Iew816">Supporting Sponsor — $2,500</option>
           </select>
           
           <div class="buy">
             
-            <a class="btn" href="https://www.racialequityinstitute.org/events/p/sponsor-registration">Select Tier</a>
+            <a class="btn" id="pdBuy" href="https://buy.stripe.com/cNidRae8C7g076kacQew812" target="_blank" rel="noopener">Select a tier</a>
           </div>
 
-          <p class="pd-note">Secure checkout is completed on the official Racial Equity Institute store.</p>
+          <p class="pd-note">Secure checkout is completed on Stripe.</p>
+          
+          <script>(function(){var s=document.getElementById('pdTier'),b=document.getElementById('pdBuy');if(s&&b)s.addEventListener('change',function(){if(s.value)b.href=s.value;});})();</script>
+          
           
           <div class="xsell">
             <img src="/img/conf/reg-bwstour.jpg" alt="">
@@ -195,8 +184,8 @@
     </div>
   </section>
 
-  <script src="/js/lightlock.js?v=202607031128"></script>
-  <script src="/js/events.js?v=202607031128"></script>
+  <script src="/js/lightlock.js?v=202607031824"></script>
+  <script src="/js/events.js?v=202607031824"></script>
 </div>
 </main>
 <footer role="contentinfo">
@@ -230,7 +219,7 @@
   </div>
 </footer>
 <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false"><span class="ti-ico">🌙</span><span class="ti-txt">Dark mode</span></button>
-<script src="/js/site.js?v=202607031128"></script>
+<script src="/js/site.js?v=202607031824"></script>
 </body>
 </html>
 
