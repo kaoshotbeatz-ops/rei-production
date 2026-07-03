@@ -1,9 +1,11 @@
-Options +MultiViews
+Options -MultiViews
+DirectorySlash Off
 ErrorDocument 404 /404.html
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  # Serve X.html for a request to /X — even when a directory named X also exists
+  # (Squarespace-style clean URLs; fixes /trainings /events /blog /services 403s).
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME}\.html -f
-  RewriteRule ^(.*)$ $1.html [L]
+  RewriteRule ^(.+?)/?$ $1.html [L]
 </IfModule>
