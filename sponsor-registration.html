@@ -149,7 +149,7 @@
 
           <p class="pd-note">Secure checkout is completed on Stripe.</p>
           
-          <script>(function(){var s=document.getElementById('pdTier'),b=document.getElementById('pdBuy');if(s&&b)s.addEventListener('change',function(){if(s.value)b.href=s.value;});})();</script>
+          <script>(function(){var s=document.getElementById('pdTier'),b=document.getElementById('pdBuy'),p=document.querySelector('.pd-price');if(s&&b)s.addEventListener('change',function(){if(s.value)b.href=s.value;if(p){var m=(s.options[s.selectedIndex].text||'').match(/\$[\d,]+/);if(m)p.textContent=m[0]+'.00';}});})();</script>
           
           
           <div class="xsell">
