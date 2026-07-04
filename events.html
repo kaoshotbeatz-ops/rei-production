@@ -201,7 +201,8 @@ try{new MutationObserver(function(){if(H.getAttribute('data-theme')==='dark')lig
         <h2>Have Questions?</h2>
         <p>We’ll review your message and get back to you within 48 hours.</p>
       </div>
-      <form class="ev-form" action="mailto:info@racialequityinstitute.org" method="post" enctype="text/plain">
+      <form class="ev-form" action="/form-handler.php" method="post">
+        <input type="hidden" name="page" value="events">
         <div class="ev-row">
           <div class="ev-field"><label for="q-first">First Name <span style="color:#c0392b">(required)</span></label><input id="q-first" name="first" required></div>
           <div class="ev-field"><label for="q-last">Last Name <span style="color:#c0392b">(required)</span></label><input id="q-last" name="last" required></div>
