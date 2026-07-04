@@ -2,5 +2,5 @@
 Contact: mailto:info@racialequityinstitute.org
 Expires: 2027-06-20T00:00:00.000Z
 Preferred-Languages: en
-Canonical: https://rei.dbaomarhuertasllc.com/.well-known/security.txt
-Policy: https://rei.dbaomarhuertasllc.com/accessibility
+Canonical: https://racialequityinstitute.org/.well-known/security.txt
+Policy: https://racialequityinstitute.org/accessibility

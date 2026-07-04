@@ -7,5 +7,5 @@ return [
   'user' => 'forms@racialequityinstitute.org',   // the M365 mailbox that sends (Authenticated SMTP ON)
   'pass' => 'APP-PASSWORD-HERE',                  // app password from Microsoft 365
   'from' => 'forms@racialequityinstitute.org',    // usually same as user
-  'to'   => 'info@racialequityinstitute.org, omar@dbaomarhuertasllc.com',  // who receives (comma-separated)
+  'to'   => 'info@racialequityinstitute.org',  // who receives (comma-separated)
 ];
