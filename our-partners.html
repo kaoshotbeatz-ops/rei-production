@@ -136,7 +136,9 @@
       <div>
         <a class="logo" href="/" style="color:#fff" aria-label="Racial Equity Institute home"><img class="reilogo" src="/img/rei-logo-white.png" alt="Racial Equity Institute"></a>
         <p style="margin-top:16px;max-width:34ch;color:rgba(255,255,255,.7)">A Black-owned, multiracial team of organizers and trainers helping institutions understand and dismantle structural racism. Founded 2012.</p>
-        <form class="news" action="/subscribe" method="post">
+        <form class="news" action="/capture.php" method="post">
+          <input type="hidden" name="type" value="subscribe">
+          <input type="hidden" name="redirect" value="/">
           <input type="email" name="email" placeholder="Your email" aria-label="Email" required />
           <button class="btn btn-primary" style="padding:.7em 1.2em">Join</button>
         </form>

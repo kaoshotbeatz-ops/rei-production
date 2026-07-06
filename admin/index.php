@@ -34,6 +34,7 @@ h1{font-size:24px}
 <a class="card" href="/admin/blog.php"><h2>Blog posts</h2><p>Add, edit, or remove blog posts.</p></a>
 <a class="card" href="/admin/bibliography.php"><h2>Bibliography</h2><p>Manage the reading list and categories.</p></a>
 <a class="card" href="/admin/orders.php"><h2>Orders</h2><p>See conference registrations recorded from Stripe.</p></a>
+<a class="card" href="/admin/contacts.php"><h2>Contacts</h2><p>See contact-form and newsletter submissions.</p></a>
 </body>
 </html>
 <?php
