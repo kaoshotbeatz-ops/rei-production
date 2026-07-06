@@ -3,6 +3,9 @@ DirectorySlash Off
 ErrorDocument 404 /404.html
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  # /admin (no trailing slash) 403s with DirectorySlash Off — send it to /admin/
+  # so the login page's DirectoryIndex (index.php) actually resolves.
+  RewriteRule ^admin$ /admin/ [R=301,L]
   # /cart -> the shared cart backend (PHP, session-based).
   RewriteRule ^cart/?$ /store/cart.php [L]
   # Serve X.html for a request to /X — even when a directory named X also exists
