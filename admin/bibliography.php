@@ -10,10 +10,10 @@ function regenerate_bibliography_html($categories) {
     $html = '';
     foreach ($categories as $cat) {
         $catName = h($cat['cat']);
-        $html .= "\n    <div class=\"reveal\" style=\"margin-bottom:42px\">\n      <h2 style=\"font-size:1.5rem;margin-bottom:16px;color:var(--indigo)\">{$catName}</h2>\n      <div class=\"grid2\" data-stagger>\n";
+        $html .= "\n    <div style=\"margin-bottom:42px\">\n      <h2 style=\"font-size:1.5rem;margin-bottom:16px;color:#333\">{$catName}</h2>\n      <div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px\">\n";
         foreach ($cat['books'] as $book) {
             $entry = h($book['title'] . ' — ' . $book['author']);
-            $html .= "        <div class=\"tile reveal\" style=\"padding:18px 22px\"><p style=\"color:var(--ink);font-weight:500;margin:0\">📖 {$entry}</p></div>\n";
+            $html .= "        <div style=\"padding:18px 22px;border:1px solid #e2e0d7;border-radius:10px;background:#fff\"><p style=\"color:#1c1c1a;font-weight:500;margin:0\">📖 {$entry}</p></div>\n";
         }
         $html .= "      </div>\n    </div>\n";
     }

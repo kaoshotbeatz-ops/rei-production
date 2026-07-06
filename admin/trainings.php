@@ -19,14 +19,14 @@ function regenerate_trainings_html($trainings) {
         $link = h($t['link']);
         $html .= <<<HTML
 
-      <div class="reveal tcard" style="border-radius:16px;padding:24px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap">
+      <div style="border:1px solid #e2e0d7;border-radius:16px;padding:24px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;background:#fff">
         <div>
-          <span class="chip" style="margin-bottom:8px">{$chip}</span>
-          <h3 style="font-size:1.25rem">{$title}</h3>
-          <p style="color:var(--muted);margin-top:4px">{$when}</p>
+          <span style="display:inline-block;background:#f1efe8;color:#444;font-size:12px;font-weight:600;padding:3px 10px;border-radius:20px;margin-bottom:8px">{$chip}</span>
+          <h3 style="font-size:1.25rem;margin:0 0 4px">{$title}</h3>
+          <p style="color:#666;margin:4px 0 0">{$when}</p>
           {$note}
         </div>
-        <a href="{$link}" target="_blank" rel="noopener" class="btn btn-dark" data-magnetic>Register →</a>
+        <a href="{$link}" target="_blank" rel="noopener" style="background:#a5331d;color:#fff;padding:10px 20px;border-radius:8px;text-decoration:none;font-weight:600;white-space:nowrap">Register →</a>
       </div>
 
 HTML;
