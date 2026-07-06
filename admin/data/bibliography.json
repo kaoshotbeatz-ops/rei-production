@@ -1,0 +1,262 @@
+[
+  {
+    "cat": "Historical Narratives & Origins of Race",
+    "books": [
+      {
+        "title": "A People's History of the United States",
+        "author": "Howard Zinn"
+      },
+      {
+        "title": "Anti-Racism in US History: The First 200 Years",
+        "author": "Herbert Aptheker"
+      },
+      {
+        "title": "Before the Mayflower: A History of Black America, 1619-1962",
+        "author": "LeRone Bennett"
+      },
+      {
+        "title": "Europe and the People Without History",
+        "author": "Eric R. Wolf"
+      },
+      {
+        "title": "The White Man's Burden: Historical Origins of Racism in America",
+        "author": "Winthrop D. Jordan"
+      }
+    ]
+  },
+  {
+    "cat": "Critical Race Theory & Analysis",
+    "books": [
+      {
+        "title": "Critical Race Theory: An Introduction",
+        "author": "Richard Delgado & Jean Stefancic"
+      },
+      {
+        "title": "Faces at the Bottom of the Well: The Permanence of Racism",
+        "author": "Derek Bell"
+      },
+      {
+        "title": "Race Matters in Child Welfare",
+        "author": "Dennette Derezotes et al."
+      },
+      {
+        "title": "The Souls of Black Folk",
+        "author": "W.E.B. DuBois"
+      }
+    ]
+  },
+  {
+    "cat": "Systemic Analysis & Social Policy",
+    "books": [
+      {
+        "title": "Black Wealth/White Wealth: A New Perspective on Racial Inequality",
+        "author": "Oliver & Shapiro"
+      },
+      {
+        "title": "Racist America: Roots, Current Realities, and Future Reparations",
+        "author": "Joe R. Feagin"
+      },
+      {
+        "title": "Unequal Protection: Environmental Justice and Communities of Color",
+        "author": "Robert Bullard (Ed.)"
+      },
+      {
+        "title": "The Color of Wealth: The Story Behind the U.S. Racial Wealth Divide",
+        "author": "Meizhu Lui et al."
+      }
+    ]
+  },
+  {
+    "cat": "Law, Criminal Justice, and Incarceration",
+    "books": [
+      {
+        "title": "Race-Based Judgments, Race-Neutral Justifications",
+        "author": "Samuel Sommers & Michael Norton"
+      },
+      {
+        "title": "Reducing Racial Disparity in the Criminal Justice System",
+        "author": "The Sentencing Project"
+      },
+      {
+        "title": "Slavery By Another Name (Book & Documentary)",
+        "author": "Douglas Blackmon"
+      },
+      {
+        "title": "The New Jim Crow: Mass Incarceration in the Age of Colorblindness",
+        "author": "Michelle Alexander"
+      },
+      {
+        "title": "White By Law: The Legal Construction of Race",
+        "author": "Ian Haney Lopez"
+      }
+    ]
+  },
+  {
+    "cat": "Education and Pedagogy",
+    "books": [
+      {
+        "title": "Are Teachers' Expectations Different For Racial Minority Than For European American Students?",
+        "author": "Journal of Educational Psychology"
+      },
+      {
+        "title": "Beyond Heroes and Holidays",
+        "author": "Enid Lee et al."
+      },
+      {
+        "title": "Lies My Teacher Told Me: Everything Your American History Textbook Got Wrong",
+        "author": "James Loewen"
+      },
+      {
+        "title": "Pedagogy of the Oppressed",
+        "author": "Paulo Freire"
+      },
+      {
+        "title": "White Awareness: Handbook for Anti-racism Training",
+        "author": "Judith Katz"
+      }
+    ]
+  },
+  {
+    "cat": "Health and Social Outcomes",
+    "books": [
+      {
+        "title": "Being Black, Living in the Red: Race, Wealth and Social Policy in America",
+        "author": "Dalton Conley"
+      },
+      {
+        "title": "Multiple Pathways Linking Racism to Health Outcomes",
+        "author": "CJ Harrell et al."
+      },
+      {
+        "title": "Reducing Racial and Social-Class Inequalities in Health",
+        "author": "S. Leonard Syme"
+      },
+      {
+        "title": "Unnatural Causes: Is Inequality Making Us Sick? (Documentary)",
+        "author": "California Newsreel"
+      }
+    ]
+  },
+  {
+    "cat": "Implicit Bias, Discrimination, and Stereotypes",
+    "books": [
+      {
+        "title": "Are Emily and Greg More Employable Than Lakisha and Jamal?",
+        "author": "Marianne Bertrand & Sendhil Mullainathan"
+      },
+      {
+        "title": "Blind Spot: The Hidden Biases of Good People",
+        "author": "Mahzarin Banaji & Anthony Greenwald"
+      },
+      {
+        "title": "Implicit Bias: Scientific Foundations",
+        "author": "A.G. Greenwald & L. H. Krieger"
+      },
+      {
+        "title": "Whistling Vivaldi: How Stereotypes Affect Us and What We Can Do",
+        "author": "Claude Steele"
+      }
+    ]
+  },
+  {
+    "cat": "Economic Inequality and Labor Discrimination",
+    "books": [
+      {
+        "title": "Forty Million Dollar Slaves",
+        "author": "William C. Rhoden"
+      },
+      {
+        "title": "The Hidden Cost of Being African-American",
+        "author": "Thomas Shapiro"
+      },
+      {
+        "title": "The Color of Discipline: Sources of Racial and Gender Disproportionality in School Punishment",
+        "author": "R. Skiba et al."
+      }
+    ]
+  },
+  {
+    "cat": "Identity, Race, and Cultural Representation",
+    "books": [
+      {
+        "title": "Black and White Styles in Conflict",
+        "author": "Thomas Kochman"
+      },
+      {
+        "title": "How Jews Became White Folks and What That Says About Race in America",
+        "author": "Karen Brodkin"
+      },
+      {
+        "title": "How the Irish Became White",
+        "author": "Noel Ignatiev"
+      },
+      {
+        "title": "The Possessive Investment in Whiteness",
+        "author": "George Lipsitz"
+      },
+      {
+        "title": "Working Toward Whiteness: How America's Immigrants Became White",
+        "author": "David Roediger"
+      }
+    ]
+  },
+  {
+    "cat": "Native American and Indigenous Studies",
+    "books": [
+      {
+        "title": "Bury My Heart at Wounded Knee: An Indian History of the American West",
+        "author": "Dee Brown"
+      },
+      {
+        "title": "The State of Native American Genocide, Colonization & Resistance",
+        "author": "M. Annette Jaimes"
+      },
+      {
+        "title": "From a Native Daughter: Colonialism and Sovereignty in Hawaii",
+        "author": "Haunani-Kay Trask"
+      }
+    ]
+  },
+  {
+    "cat": "Intersectionality: Gender, Race, and Class",
+    "books": [
+      {
+        "title": "Killing the Black Body: Race, Reproduction, and the Meaning of Liberty",
+        "author": "Dorothy Roberts"
+      },
+      {
+        "title": "When and Where I Enter: The Impact of Black Women on Race and Sex in America",
+        "author": "Paula Giddings"
+      },
+      {
+        "title": "Women, Race, and Class",
+        "author": "Angela Davis"
+      },
+      {
+        "title": "Sisters of the Yam: Black Women and Self-Recovery",
+        "author": "bell hooks"
+      }
+    ]
+  },
+  {
+    "cat": "Activism and Social Justice",
+    "books": [
+      {
+        "title": "Becoming an Anti-Racist Church",
+        "author": "Joseph Barndt"
+      },
+      {
+        "title": "Reluctant Reformers: Racism and Social Reform Movements in the United States",
+        "author": "Robert L. Allen"
+      },
+      {
+        "title": "Uprooting Racism: How White People Can Work for Racial Justice",
+        "author": "Paul Kivel"
+      },
+      {
+        "title": "You Call This A Democracy: Who Benefits, Who Pays and Who Really Decides?",
+        "author": "Paul Kivel"
+      }
+    ]
+  }
+]

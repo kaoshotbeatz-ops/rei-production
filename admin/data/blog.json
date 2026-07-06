@@ -1,0 +1,32 @@
+[
+  {
+    "id": "post1compound",
+    "title": "Compounded Advantage in Real Estate: A Tale of Two Neighborhoods in Greensboro",
+    "slug": "compounded-advantage-real-estate",
+    "date": "2019-05-28",
+    "author": "Yodit Kifle",
+    "tag": "Housing",
+    "excerpt": "How decades of policy turned two Greensboro neighborhoods into a study in compounded advantage — and disadvantage.",
+    "body": "How decades of policy turned two Greensboro neighborhoods into a study in compounded advantage — and disadvantage."
+  },
+  {
+    "id": "post2sistrunk",
+    "title": "Dr. James Sistrunk and the Legacy of Black Wall Street in Broward County",
+    "slug": "james-sistrunk-black-wall-street",
+    "date": "2019-05-28",
+    "author": "Yodit Kifle",
+    "tag": "History",
+    "excerpt": "The story of Dr. James Sistrunk and a thriving Black business district — and what happened to the wealth it built.",
+    "body": "The story of Dr. James Sistrunk and a thriving Black business district — and what happened to the wealth it built."
+  },
+  {
+    "id": "post3newdeal",
+    "title": "The New Deal and Racial Exclusion: A Lasting Divide in Infrastructure Opportunities",
+    "slug": "new-deal-racial-exclusion",
+    "date": "2019-05-28",
+    "author": "Yodit Kifle",
+    "tag": "Policy",
+    "excerpt": "How New Deal programs built the American middle class — while writing racial exclusion into the foundation.",
+    "body": "How New Deal programs built the American middle class — while writing racial exclusion into the foundation."
+  }
+]
