@@ -43,7 +43,8 @@
       <a href="/faqs" class="">FAQs</a>
       <a href="/contact" class="">Contact</a>
       
-        <a href="https://buy.stripe.com/eVafZGaaddwG44EdR3" target="_blank" rel="noopener" class="btn btn-primary" style="padding:.6em 1.2em" data-magnetic>Donate</a>
+        <a href="/cart" class="" style="margin-right:8px" aria-label="Cart">Cart</a>
+      <a href="https://buy.stripe.com/eVafZGaaddwG44EdR3" target="_blank" rel="noopener" class="btn btn-primary" style="padding:.6em 1.2em" data-magnetic>Donate</a>
       
     </nav>
     <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
@@ -139,17 +140,22 @@
           
           <select id="pdTier" aria-label="Select Sponsor Tier">
             <option value="">Select Sponsor Tier</option>
-            <option value="https://buy.stripe.com/cNidRae8C7gO76kacQew812">Platinum Sponsor — $25,000</option><option value="https://buy.stripe.com/eVqaEY3tYbx4cqEfxaew813">Gold Sponsor — $15,000</option><option value="https://buy.stripe.com/4gM28s5C6eJgbmA84Iew814">Silver Sponsor — $10,000</option><option value="https://buy.stripe.com/eVq14oaWq58G1M03Osew815">Community Sponsor — $5,000</option><option value="https://buy.stripe.com/aFa14od4y58G62g84Iew816">Supporting Sponsor — $2,500</option>
+            <option value="sponsor-platinum" data-stripe="https://buy.stripe.com/cNidRae8C7gO76kacQew812">Platinum Sponsor — $25,000</option><option value="sponsor-gold" data-stripe="https://buy.stripe.com/eVqaEY3tYbx4cqEfxaew813">Gold Sponsor — $15,000</option><option value="sponsor-silver" data-stripe="https://buy.stripe.com/4gM28s5C6eJgbmA84Iew814">Silver Sponsor — $10,000</option><option value="sponsor-community" data-stripe="https://buy.stripe.com/eVq14oaWq58G1M03Osew815">Community Sponsor — $5,000</option><option value="sponsor-supporting" data-stripe="https://buy.stripe.com/aFa14od4y58G62g84Iew816">Supporting Sponsor — $2,500</option>
           </select>
           
           <div class="buy">
             
-            <a class="btn" id="pdBuy" href="https://buy.stripe.com/cNidRae8C7gO76kacQew812" target="_blank" rel="noopener">Select a tier</a>
+            <form method="post" action="/store/cart.php" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+              <input type="hidden" name="action" value="add">
+              <input type="hidden" name="product" id="pdProduct" value="sponsor-platinum">
+              <button type="submit" class="btn" style="cursor:pointer">Add to cart</button>
+              <a class="btn" id="pdBuy" style="background:transparent;border:1px solid currentColor" href="https://buy.stripe.com/cNidRae8C7gO76kacQew812" target="_blank" rel="noopener">Pay now</a>
+            </form>
           </div>
 
           <p class="pd-note">Secure checkout is completed on Stripe.</p>
           
-          <script>(function(){var s=document.getElementById('pdTier'),b=document.getElementById('pdBuy'),p=document.querySelector('.pd-price');if(s&&b)s.addEventListener('change',function(){if(s.value)b.href=s.value;if(p){var m=(s.options[s.selectedIndex].text||'').match(/\$[\d,]+/);if(m)p.textContent=m[0]+'.00';}});})();</script>
+          <script>(function(){var s=document.getElementById('pdTier'),b=document.getElementById('pdBuy'),prod=document.getElementById('pdProduct'),p=document.querySelector('.pd-price');if(s&&b)s.addEventListener('change',function(){var opt=s.options[s.selectedIndex];if(opt.dataset.stripe)b.href=opt.dataset.stripe;if(prod)prod.value=s.value;if(p){var m=(opt.text||'').match(/\$[\d,]+/);if(m)p.textContent=m[0]+'.00';}});})();</script>
           
           
           <div class="xsell">

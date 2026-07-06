@@ -43,7 +43,8 @@
       <a href="/faqs" class="">FAQs</a>
       <a href="/contact" class="">Contact</a>
       
-        <a href="https://buy.stripe.com/eVafZGaaddwG44EdR3" target="_blank" rel="noopener" class="btn btn-primary" style="padding:.6em 1.2em" data-magnetic>Donate</a>
+        <a href="/cart" class="" style="margin-right:8px" aria-label="Cart">Cart</a>
+      <a href="https://buy.stripe.com/eVafZGaaddwG44EdR3" target="_blank" rel="noopener" class="btn btn-primary" style="padding:.6em 1.2em" data-magnetic>Donate</a>
       
     </nav>
     <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
@@ -141,7 +142,13 @@
             
             <div class="qty"><button type="button" data-step="-1" aria-label="Decrease">&minus;</button><span id="qtyVal">1</span><button type="button" data-step="1" aria-label="Increase">+</button></div>
             
-            <a class="btn" id="pdBuy" href="https://buy.stripe.com/6oU28saWq58G0HW70Eew817" target="_blank" rel="noopener">Register</a>
+            <form method="post" action="/store/cart.php" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+              <input type="hidden" name="action" value="add">
+              <input type="hidden" name="product" value="general">
+              <label style="font-size:14px">Qty <input type="number" name="qty" value="1" min="1" style="width:56px;padding:6px;border:1px solid #ccc;border-radius:6px;margin-left:6px"></label>
+              <button type="submit" class="btn" style="cursor:pointer">Add to cart</button>
+              <a class="btn" style="background:transparent;border:1px solid currentColor" href="https://buy.stripe.com/6oU28saWq58G0HW70Eew817" target="_blank" rel="noopener">Pay now</a>
+            </form>
           </div>
 
           <p class="pd-note">Secure checkout is completed on Stripe.</p>
